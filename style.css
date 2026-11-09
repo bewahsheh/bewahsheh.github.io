@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #222;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: hotpink;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: deeppink;
+}
+
+h1, h2 {
+  color: deeppink;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid pink;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: hotpink;
+  color: white;
+}
+
+tr:hover {
+  background-color: mistyrose;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid hotpink;
+  border-radius: 5px;
+}
+
+button {
+  background-color: hotpink;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deeppink;
+}

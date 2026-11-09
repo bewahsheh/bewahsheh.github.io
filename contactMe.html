@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contactMe.html">Contact Me</a>
+  </nav>
+
+  <h1>Contact Me</h1>
+
+  <form id="contactForm">
+    <label>Full Name:</label><br>
+    <input type="text" id="fullname"><br><br>
+
+    <label>Email Address:</label><br>
+    <input type="text" id="email"><br><br>
+
+    <label>Country:</label><br>
+    <input type="text" id="country"><br><br>
+
+    <label>Comments:</label><br>
+    <textarea id="comments" rows="5" cols="40"></textarea><br><br>
+
+    <button type="button" onclick="validateForm()">Submit</button>
+  </form>
+
+
+  <script>
+    function validateForm() {
+      var name = document.getElementById("fullname").value;
+      var email = document.getElementById("email").value;
+      var country = document.getElementById("country").value;
+      var comments = document.getElementById("comments").value;
+
+      if (name === "" || email === "" || country === "" || comments === "") {
+        alert("Please fill in all fields.");
+      } else {
+        alert("Your form was submitted successfully!");
+      }
+    }
+  </script>
+
+</body>
+</html>
